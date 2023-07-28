@@ -1,5 +1,19 @@
 body {
-  background-color: rgb(250, 250, 250);
+  background-color: rgb(230, 230, 230);
+}
+
+/* NAVBAR */
+nav ul li:nth-child(even):hover {
+  padding: 0px 10px 0px 10px;
+  background-color: rgba(104, 104, 103, 0.1294117647);
+  border-radius: 10%;
+  transform: rotate(3deg);
+}
+nav ul li:nth-child(odd):hover {
+  padding: 0px 10px 0px 10px;
+  background-color: rgba(104, 104, 103, 0.1294117647);
+  border-radius: 10%;
+  transform: rotate(-3deg);
 }
 
 #startSentence {
@@ -11,20 +25,6 @@ body {
   margin: 0;
 }
 
-#txtMain {
-  font-size: 1.2rem;
-}
-
-nav li:nth-child(even):hover {
-  padding: 0px 10px 0px 10px;
-  background-color: rgba(104, 104, 103, 0.1294117647);
-  border-radius: 10%;
-  transform: rotate(5deg);
-}
-
-nav li:nth-child(odd):hover {
-  padding: 0px 10px 0px 10px;
-  background-color: rgba(104, 104, 103, 0.1294117647);
-  border-radius: 10%;
-  transform: rotate(-5deg);
+.backgroundOp {
+  background-color: rgba(0, 0, 0, 0.397);
 }/*# sourceMappingURL=main.css.map */

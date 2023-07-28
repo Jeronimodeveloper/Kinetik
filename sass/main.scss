@@ -4,8 +4,30 @@ $colorTerceario1: #162a6e;
 $colorTerceario2: #D51B1B;
 
 body {
-    background-color: rgb(250, 250, 250);
+    background-color: rgb(230, 230, 230);
 }
+
+/* NAVBAR */
+
+nav {
+    ul {
+         li {
+         &:nth-child(even):hover {
+            padding: 0px 10px 0px 10px;
+            background-color: #68686721;
+            border-radius: 10%;
+            transform: rotate(3deg);
+                }
+
+         &:nth-child(odd):hover {
+            padding: 0px 10px 0px 10px;
+            background-color: #68686721;
+            border-radius: 10%;
+            transform: rotate(-3deg);
+                }
+            }
+        }
+    }
 
 #startSentence {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -16,26 +38,6 @@ body {
     margin: 0;
 }
 
-#txtMain {
-    font-size: 1.2rem;
-}
-
-nav {
-    ul {
-        li {
-        &:nth-child(even):hover {
-    padding: 0px 10px 0px 10px;
-    background-color: #68686721;
-    border-radius: 10%;
-    transform: rotate(5deg);
-                }
-
-&nth-child(odd):hover {
-    padding: 0px 10px 0px 10px;
-    background-color: #68686721;
-    border-radius: 10%;
-    transform: rotate(-5deg);
-                }
-            }
-        }
+.backgroundOp {
+    background-color: rgba(0, 0, 0, 0.397);
     }
